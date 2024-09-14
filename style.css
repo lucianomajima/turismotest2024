@@ -1,0 +1,56 @@
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Montserrat', sans-serif; /* Fonte moderna */
+}
+
+nav a i {
+  margin-left: 5px;
+
+  ul {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0;
+  }
+
+  li::before {
+    content: "\f00c"; /* Ícone de seta para a direita do Font Awesome */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: #333;
+  }
+}
+
+nav a:hover {
+  color: #6a0dad; /* Cor de destaque */
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+
+}  
+
+.container {
+  display: flex;
+  justify-content: center;
+}
