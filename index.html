@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+    <
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <nav> 
+            <ul>
+                <li>Pacotes</li>
+                <li>Taxas</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <h1>Venha realizar a viagem dos seus sonhos</h1>
+    </header>
+    <section>
+        <h2> Conheça nossos pacotes e serviços</h2>
+            <p> Você já imaginou suas férias perfeitas, cheias de momentos inesquecíveis, destinos incríveis e experiências únicas? A [Nome da Agência] torna isso possível com nossos pacotes de viagens personalizados, projetados para atender todas as suas expectativas e proporcionar a você e sua família uma viagem memorável.
+
+            Por que Escolher Nossos Pacotes de Viagens? </p> <br>
+            <p>
+            Variedade de Destinos: Oferecemos uma ampla gama de destinos, desde praias paradisíacas no Caribe até os charmosos vilarejos da Europa, garantindo que você encontre o destino perfeito para as suas férias. <br>
+            Experiências Exclusivas: Nossos pacotes incluem experiências únicas que vão além do comum. Imagine degustar vinhos em uma vinícola renomada na Toscana, fazer um safári na África ou explorar os templos milenares do Japão. Tudo isso e muito mais é possível com a [Nome da Agência].
+            </p><br>
+            Planejamento Personalizado: Sabemos que cada viajante é único, por isso, nossos especialistas em viagens trabalham com você para criar um itinerário sob medida, garantindo que todas as suas preferências e necessidades sejam atendidas.
+            <br> <p>
+            Conforto e Segurança: Cuidamos de todos os detalhes para que você possa relaxar e aproveitar ao máximo sua viagem. Desde as reservas de voos e hotéis até o transporte local e guias especializados, tudo é organizado com a máxima atenção para garantir sua tranquilidade e segurança.
+            </p><br>
+            <p>
+            Melhor Custo-Benefício: Graças às nossas parcerias com fornecedores ao redor do mundo, conseguimos oferecer pacotes com preços competitivos sem comprometer a qualidade dos serviços. Além disso, oferecemos diversas opções de pagamento para facilitar ainda mais sua viagem.
+            </p><br>
+            <p>
+            Como Funciona? 
+            Escolha Seu Destino: Navegue pelo nosso site e descubra os destinos incríveis que oferecemos.
+            </p>
+    </section>
+    <figure>
+        <img src="img/japan.jpeg" alt="japão" width="500"
+        <figcaption>Japão, Tokyo</figcaption>
+        <figure>
+            <img src="img/new-york.jpeg" alt="Nova Iorque" width="500"
+            <figcaption>EUA, Nova Iorque</figcaption>
+        </figure>
+        <img src="img/buenos-aires.jpeg" alt="Buenos Aires" width="500"
+        <figcaption> Argentina, Buenos aires</figcaption>
+        </figure>
+    </figure>
+    <section> 
+        <h2>Orçamento</h2>
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Dados da viagem</legend>
+            <label>Nome</label><br>
+            <input type="text" required name="nome"><br><br>
+
+            <label>E-mail</label><br>
+            <input type="email" required name="e-mail"><br><br>
+
+            <label>Data de ida</label><br>
+            <input type="date" required name="dataIda"><br><br>
+
+            <label>Data de volta</label><br>
+            <input type="date" required name="dataVolta"><br><br>
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" required name="qtdPessoas"><br><br>
+            </fieldset>
+            <br>
+
+            <fieldset> 
+            <legend>Quais serviços deseja contratar?</legend><br>
+            <label>
+                <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+            </label>
+            <label>
+                <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+            </label>
+            <label> 
+                <br><input type="checkbox" name="veiculos" value="Veículos">Reserva de veículos   
+            </label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="cartão de crédito">Cartão de crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                </label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Escolha o prazo para pagamento</legend>
+
+            <select name="prazoPagamento">
+                <option value="aVista">Á vista</option>
+                <option value="5x" selected>5x sem juros</option>
+                <option value="10x">10x com juros</option>
+            </select>
+            </fieldset>
+            <br>
+
+            <br><label>Comentário</label><br>
+            <textarea rows="5" name="comentário"></textarea><br><br>
+            <button>Salvar</button>            
+
+        </form>
+    </section>
+    <br> <br>
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Veja nossas taxas e serviços fornecidas pela agência.</p>
+        <table border>
+            <caption>Descrição dos serviços e seus respectivos valores</caption>
+            <thead>
+            <tr>
+                <th>Serviços</th>
+                <th>Valor</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Passagem</td>
+                <td>R$1,000,00</td>
+            </tr>
+            <tr>
+                <td>Hospedagem diária</td>
+                <td>R$100,00</td>
+            </tr>
+            <tr>
+                <td> Almoço</td>
+                <td>Grátis</td>
+            </tr>
+            <tr>
+                <td>Aluguel de carros</td>
+                <td>R$70,00</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
