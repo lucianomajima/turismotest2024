@@ -1,0 +1,131 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Cinza claro como fundo */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+li {
+  list-style: none;
+  padding: 0;
+}
+
+ li {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+ li:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+li:hover:before {
+  width: 15px;
+  height: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Montserrat', sans-serif; /* Fonte moderna */
+}
+
+nav a i {
+  margin-left: 5px;
+
+  ul {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0;
+  }
+
+  li::before {
+    content: "\f00c"; /* Ícone de seta para a direita do Font Awesome */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: #333;
+  }
+}
+
+nav a:hover {
+  color: #6a0dad; /* Cor de destaque */
+}
+
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;   
+
+}
+Use o código com cuidado.
+
